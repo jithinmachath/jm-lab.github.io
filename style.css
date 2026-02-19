@@ -6,26 +6,6 @@ body {
     background: #f1f5f9;
 }
 
-/* NAVBAR */
-.navbar {
-    background: white;
-    padding: 12px 40px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    position: sticky;
-    top: 0;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: #1e293b;
-}
-
 /* HERO */
 .hero {
     height: 260px;
@@ -55,55 +35,46 @@ body {
 /* GRID */
 .container {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.6fr 1fr;
     gap: 20px;
-    padding: 20px 40px;
+    padding: 20px;
 }
 
 /* CARD */
 .card {
     background: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 /* EDUCATION */
 .edu-block {
     display: flex;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .edu-logo {
     width: 40px;
 }
 
-/* PROJECT */
+.edu-inst a {
+    text-decoration: none;
+    color: black;
+}
+
+.edu-links a {
+    margin-right: 10px;
+}
+
+/* PROJECTS */
 .projects-section {
-    padding: 20px 40px;
+    padding: 20px;
 }
 
 .project-card {
     background: white;
     padding: 20px;
-    margin-top: 20px;
+    border-radius: 12px;
 }
 
-/* MEDIA */
-.project-media {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.media-box {
-    position: relative;
-    padding-top: 56%;
-}
-
-.media-box img,
-.media-box iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
