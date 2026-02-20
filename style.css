@@ -221,3 +221,15 @@ body {
     color: #475569;
     line-height: 1.5;
 }
+
+/* MAIN INSTITUTE LINK */
+.edu-link-main {
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: 500;
+}
+
+.edu-link-main:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
