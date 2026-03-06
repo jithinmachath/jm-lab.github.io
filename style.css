@@ -512,4 +512,36 @@ body.dark .project-role {
     color: #cbd5f5;
 }
 
+/* ENGINEERING TOOLS */
 
+.tools-list {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 14px;
+margin-top: 10px;
+}
+
+.tool {
+display: flex;
+align-items: center;
+gap: 12px;
+padding: 8px 10px;
+border-radius: 8px;
+background: #f8fafc;
+border: 1px solid #e2e8f0;
+}
+
+body.dark .tool {
+background: #1e293b;
+border-color: #334155;
+}
+
+.tool img {
+width: 28px;
+height: 28px;
+object-fit: contain;
+}
+
+.tool span {
+font-size: 14px;
+}
