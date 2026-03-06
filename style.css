@@ -404,6 +404,50 @@ transition:0.2s;
 background:#1d4ed8;
 }
 
+/* ================= PROJECT TIMELINE ================= */
+
+.project-timeline{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:8px;
+margin-top:14px;
+font-size:13px;
+}
+
+/* STEP */
+
+.timeline-step{
+
+background:#eef2ff;
+color:#4338ca;
+
+padding:6px 10px;
+border-radius:6px;
+
+font-weight:500;
+
+}
+
+/* ARROW */
+
+.timeline-arrow{
+color:#64748b;
+font-size:14px;
+}
+
+/* DARK MODE */
+
+body.dark .timeline-step{
+
+background:#1e293b;
+color:#93c5fd;
+
+}
+
+body.dark .timeline-arrow{
+color:#94a3b8;
+}
 /* ================= CASE STUDY ================= */
 .case-hero {
     padding: 80px 40px 40px;
