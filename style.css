@@ -445,6 +445,25 @@ body.dark .project-timeline span{
 color:#64748b;
 }
 
+/* PROJECT IMPACT */
+
+.project-impact{
+
+font-size:14px;
+line-height:1.6;
+
+margin-top:8px;
+margin-bottom:6px;
+
+color:#334155;
+font-weight:500;
+
+}
+
+body.dark .project-impact{
+color:#cbd5f5;
+}
+
 
 /* ================= CASE STUDY ================= */
 .case-hero {
