@@ -659,3 +659,37 @@ flex-shrink:0;
 font-size:14px;
 line-height:1.5;
 }
+
+
+/* ================= CASE STUDY TECH STACK ================= */
+
+.tech-stack{
+
+margin-top:10px;
+margin-bottom:10px;
+
+font-size:14px;
+font-weight:500;
+
+display:flex;
+flex-wrap:wrap;
+gap:6px;
+
+align-items:center;
+
+color:#3730a3;
+
+}
+
+.tech-stack span{
+color:#94a3b8;
+font-weight:400;
+}
+
+body.dark .tech-stack{
+color:#93c5fd;
+}
+
+body.dark .tech-stack span{
+color:#64748b;
+}
