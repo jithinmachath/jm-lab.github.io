@@ -786,3 +786,50 @@ color:#93c5fd;
 body.dark .timeline-arrow{
 color:#94a3b8;
 }
+
+/* ENGINEERING JOURNEY GRID */
+
+.journey-grid{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:18px;
+margin-top:12px;
+
+}
+
+.journey-step{
+
+background:#f8fafc;
+border-left:4px solid #6366f1;
+
+padding:14px;
+border-radius:8px;
+
+}
+
+.journey-step h3{
+
+font-size:15px;
+margin-bottom:6px;
+
+}
+
+.journey-step p{
+
+font-size:14px;
+margin:0;
+color:#475569;
+
+}
+
+body.dark .journey-step{
+
+background:#1e293b;
+border-left-color:#60a5fa;
+
+}
+
+body.dark .journey-step p{
+color:#cbd5f5;
+}
