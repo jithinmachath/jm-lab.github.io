@@ -14,14 +14,15 @@
 <nav class="navbar">
     <div class="nav-container">
         <a href="index.html" class="nav-logo">Jithin Machath</a>
-        <a href="index.html">← Back</a>
+        <div class="nav-actions">
+            <button id="theme-toggle">🌙</button>
+            <a href="index.html">← Back</a>
+        </div>
     </div>
 </nav>
 
 <!-- HERO -->
-<div class="case-container">
-
-<div class="case-header">
+<section class="case-hero">
 
 <h1>DRACO</h1>
 
@@ -30,48 +31,11 @@ In-Service Crude Oil Tank Cleaning Robot
 </p>
 
 <p class="case-summary">
-Development of a robotic system designed to perform crude oil tank cleaning while tanks remain operational, improving safety and reducing operational downtime in hazardous environments.
+A multi-year engineering program focused on developing a robotic system capable of cleaning crude oil storage tanks while in service, improving safety and reducing operational downtime.
 </p>
 
-<p class="project-note">
-This case study summarizes my engineering contributions during the development of the DRACO system. Information presented here is based on publicly available details and personal engineering experience without disclosing confidential project information.
-</p>
+</section>
 
-</div>
-
- <!-- Project Snapshot -->       
-<div class="case-container">
-
-<div class="case-block project-snapshot">
-
-<h2>Project Snapshot</h2>
-
-<div class="snapshot-grid">
-
-<div class="snapshot-item">
-<strong>Domain</strong>
-<p>Oil & Gas Robotics</p>
-</div>
-
-<div class="snapshot-item">
-<strong>Role</strong>
-<p>Mechanical Design & Development</p>
-</div>
-
-<div class="snapshot-item">
-<strong>Duration</strong>
-<p>~3 Years Development Program</p>
-</div>
-
-<div class="snapshot-item">
-<strong>Key Systems</strong>
-<p>Hydraulic Pumping • Robotic Maneuvering • Hazardous Environment Equipment</p>
-</div>
-
-</div>
-
-</div>
-    
 <!-- MAIN CONTENT -->
 <section class="case-container">
 
@@ -81,8 +45,13 @@ This case study summarizes my engineering contributions during the development o
 <h2>Project Overview</h2>
 
 <p>
-DRACO is a robotic system developed for in-service crude oil tank cleaning. The project focused on enabling sludge mobilisation and removal without tank shutdown while improving operational safety in hazardous environments.
+Crude oil storage tanks accumulate sludge over time, reducing storage capacity and creating operational challenges. Conventional tank cleaning methods often require shutdown of the tank and manual entry into hazardous environments.
 </p>
+
+<p>
+The DRACO project focused on developing a robotic system capable of performing sludge mobilisation and cleaning operations while the tank remains operational. The system was designed to operate within confined tank environments while meeting strict safety and reliability requirements associated with hazardous industrial facilities.
+</p>
+
 </div>
 
 
@@ -93,15 +62,15 @@ DRACO is a robotic system developed for in-service crude oil tank cleaning. The 
 
 <ul>
 
-<li>Operating within confined tank environments with limited access.</li>
+<li>Operating within confined tank environments with limited access points</li>
 
-<li>Designing equipment suitable for hazardous oil & gas environments.</li>
+<li>Designing systems capable of functioning in hazardous industrial environments</li>
 
-<li>Handling complex sludge behaviour and fluid interactions.</li>
+<li>Handling complex sludge behaviour and fluid interactions</li>
 
-<li>Ensuring reliability for real industrial deployment.</li>
+<li>Ensuring reliability and maintainability for real industrial deployment</li>
 
-<li>Integrating mechanical, hydraulic, and sensing subsystems in a compact platform.</li>
+<li>Integrating mechanical, hydraulic, and sensing systems into a compact robotic platform</li>
 
 </ul>
 
@@ -111,71 +80,29 @@ DRACO is a robotic system developed for in-service crude oil tank cleaning. The 
 <!-- DEVELOPMENT LIFECYCLE -->
 <div class="case-block">
 
-<h2>Engineering Development Journey</h2>
+<h2>Development Lifecycle</h2>
 
-<div class="journey-grid">
+<p class="project-timeline">
 
-<div class="journey-step">
-<h3>Feasibility & Problem Study</h3>
-<p>
-Studied crude oil tank cleaning operations, sludge behaviour, and hazardous environment constraints to evaluate feasibility of a robotic cleaning solution.
+Feasibility
+<span>→</span>
+Concept Development
+<span>→</span>
+System & Detailed Design
+<span>→</span>
+Prototype Development
+<span>→</span>
+Testing & Validation
+<span>→</span>
+Field Deployment
+
 </p>
-</div>
 
-<div class="journey-step">
-<h3>Concept Development</h3>
 <p>
-Explored multiple robotic architectures, propulsion concepts, and sludge pumping approaches before selecting a feasible system configuration.
+The development of the system progressed through multiple engineering phases beginning with feasibility studies and concept exploration, followed by subsystem design, prototype development, testing, and field deployment. Each stage involved iterative refinement and validation to ensure reliable system performance under real operating conditions.
 </p>
-</div>
-
-<div class="journey-step">
-<h3>Subsystem Design</h3>
-<p>
-Designed key subsystems including propulsion system, piston pump mechanism, sludge mobilisation systems, and hydraulic circuits.
-</p>
-</div>
-
-<div class="journey-step">
-<h3>Simulation & Engineering Analysis</h3>
-<p>
-Performed hydraulic studies, propulsion calculations, structural analysis, and virtual testing of pump and propeller configurations.
-</p>
-</div>
-
-<div class="journey-step">
-<h3>Prototype Development</h3>
-<p>
-Developed scaled piston pump prototypes and subsystem models to validate engineering concepts experimentally.
-</p>
-</div>
-
-<div class="journey-step">
-<h3>Experimental Testing</h3>
-<p>
-Built engineering test setups including propeller thrust rigs and piston pump testing systems to evaluate subsystem performance.
-</p>
-</div>
-
-<div class="journey-step">
-<h3>Integrated System Testing</h3>
-<p>
-Developed in-house tank testing setup to evaluate propulsion, pumping, and subsystem integration under simulated conditions.
-</p>
-</div>
-
-<div class="journey-step">
-<h3>Field Validation</h3>
-<p>
-Supported system deployment and field validation to assess operational performance in real tank environments.
-</p>
-</div>
 
 </div>
-
-</div>
-
-
 
 
 <!-- KEY ENGINEERING AREAS -->
@@ -185,13 +112,13 @@ Supported system deployment and field validation to assess operational performan
 
 <ul>
 
-<li>Mechanical system architecture</li>
+<li>Mechanical system architecture and subsystem design</li>
 
-<li>Hydraulic system design and integration</li>
+<li>Hydraulic system integration and actuation mechanisms</li>
 
-<li>Structural analysis and engineering calculations</li>
+<li>Structural design and engineering analysis</li>
 
-<li>Prototype development and iterative design refinement</li>
+<li>Prototype development and design iteration</li>
 
 <li>System integration and field validation</li>
 
@@ -206,9 +133,9 @@ Supported system deployment and field validation to assess operational performan
 <h2>My Role & Responsibilities</h2>
 
 <p>
-I joined the project during early development stages and later led key mechanical development and execution activities. My work covered subsystem design, prototype development, testing, and field validation of the robotic system.
+I was involved in the project from its early stages and later took responsibility for leading key aspects of the mechanical development and execution phases. My work spanned concept development, subsystem design, prototype development, testing, and field validation activities.
 </p>
-    
+
 <ul>
 
 <li>Mechanical architecture and subsystem design</li>
@@ -233,27 +160,59 @@ I joined the project during early development stages and later led key mechanica
 
 <h2>Engineering Contributions & Learnings</h2>
 
+<p>
+The DRACO project provided significant exposure to engineering challenges within the <span class="hazard-highlight">oil and gas industry</span>, particularly in the context of <span class="hazard-highlight">hazardous industrial environments</span>. Working on this system required understanding refinery operations, safety procedures, and the design considerations necessary for equipment operating in potentially explosive atmospheres.
+</p>
+
+<p>
+The project also involved studying hazardous area equipment standards and understanding how mechanical and hydraulic systems must be designed to minimize ignition risks and ensure safe operation in environments where flammable vapours may be present.
+</p>
+
 <ul>
 
-<li>Studied explosion protection requirements including ATEX Directive 2014/34/EU, PESO recommendations, and IEC / IS 60079 & 80079 series standards.</li>
+<li>
+Studied explosion protection requirements relevant to hazardous industrial environments, including ATEX Directive 2014/34/EU, PESO recommendations, and implementation considerations from IEC / IS 60079 and 80079 series standards for electrical and non-electrical equipment in explosive atmospheres.
+</li>
+    
+<li>
+Contributed to the overall mechanical architecture and subsystem layout of the robotic system, ensuring integration of propulsion, pumping, and hydraulic actuation mechanisms within deployment constraints.
+</li>
 
-<li>Contributed to mechanical architecture and subsystem layout of the robotic system.</li>
+<li>
+Selected materials and manufacturing processes suitable for operation in crude oil environments and other demanding industrial conditions.
+</li>
 
-<li>Selected materials and manufacturing approaches suitable for crude oil and hazardous environments.</li>
+<li>
+Designed the hydraulic circuit architecture and selected appropriate hydraulic components and configurations for the pumping and actuation systems, including components suitable for hazardous environments.
+</li>
 
-<li>Designed hydraulic circuit architecture and selected hydraulic components for pumping and actuation systems.</li>
+<li>
+Performed engineering calculations to study propulsion mechanisms used for robotic manoeuvring, along with hydraulic system performance, component sizing, and system losses.
+</li>
 
-<li>Performed engineering calculations for propulsion mechanisms and hydraulic system performance.</li>
+<li>
+Conducted structural analysis and engineering evaluations to support mechanical design decisions during subsystem development.
+</li>
 
-<li>Conducted structural analysis to support mechanical design decisions.</li>
+<li>
+Led the development of a scaled prototype of a piston-based pumping system used to study sludge mobilisation and evaluate system performance.
+</li>
 
-<li>Led development of a scaled prototype piston pump for sludge mobilisation studies.</li>
+<li>
+Designed and implemented an inductive proximity sensor–based position sensing approach for hydraulic cylinders to support automated piston pump operation.
+</li>
 
-<li>Designed inductive proximity sensor based position sensing for hydraulic cylinder control.</li>
+<li>
+Supported subsystem integration and assembly activities to ensure compatibility between mechanical, hydraulic, and sensing components during prototype development.
+</li>
 
-<li>Supported subsystem integration, testing, and field validation activities.</li>
+<li>
+Refined mechanical designs through iterative testing and evaluation, incorporating insights from prototype trials and field validation activities.
+</li>
 
-<li>Later led engineering efforts across design, prototype development, testing, and field implementation.</li>
+<li>
+Over time, I took on increasing responsibility and later led engineering activities across subsystem design, prototype development, testing, and field implementation while coordinating with cross-functional teams.
+</li>
 
 </ul>
 
@@ -298,7 +257,11 @@ The project required the use of mechanical design tools, engineering analysis, a
 <h2>Testing & Validation</h2>
 
 <p>
-Multiple prototype iterations were tested through controlled environments and in-house setups to evaluate subsystem performance, integration, and operational reliability before field deployment.
+Multiple prototype iterations were developed and evaluated through controlled testing environments before field deployment. Testing activities focused on verifying system reliability, operational performance, and subsystem integration.
+</p>
+
+<p>
+Dedicated in-house testing setups were also developed to simulate operational conditions and support iterative improvements to the system design prior to field implementation.
 </p>
 
 </div>
@@ -310,27 +273,12 @@ Multiple prototype iterations were tested through controlled environments and in
 <h2>Project Outcome</h2>
 
 <p>
-The project resulted in the development of a robotic system designed to enable safer and more efficient crude oil tank cleaning operations while reducing operational disruption and minimizing human exposure to hazardous environments.
-</p>
-</div>
-
-    <!-- External Reference -->
-    
-<div class="case-block">
-
-<h2>External Reference</h2>
-
-<p>
-Additional public information about the project can be found on the official Genrobotics research page.
-</p>
-
-<p>
-<a href="https://research.genrobotics.com/draco/" target="_blank">
-View official DRACO project page →
-</a>
+The project resulted in the successful development of a robotic system designed to enable safer and more efficient crude oil tank cleaning operations while minimising operational disruption and reducing the need for human entry into hazardous environments.
 </p>
 
 </div>
+
+
 <!-- GALLERY -->
 <div class="case-block">
 
@@ -348,6 +296,20 @@ View official DRACO project page →
 
 
 </section>
+
+<!-- THEME SCRIPT -->
+<script>
+const toggle = document.getElementById("theme-toggle");
+toggle.onclick = () => {
+    document.body.classList.toggle("dark");
+    localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+    toggle.innerText = document.body.classList.contains("dark") ? "☀️" : "🌙";
+};
+if(localStorage.getItem("theme") === "dark"){
+    document.body.classList.add("dark");
+    toggle.innerText = "☀️";
+}
+</script>
 
 </body>
 </html>
