@@ -897,3 +897,51 @@ max-width:700px;
 }
 
 
+
+/* PROJECT HEADER */
+
+.case-header{
+max-width:1100px;
+margin:40px auto 10px auto;
+padding:0 40px;
+}
+
+.case-header h1{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.case-subtitle{
+font-size:16px;
+color:#64748b;
+max-width:700px;
+}
+
+body.dark .case-subtitle{
+color:#cbd5f5;
+}
+
+
+/* TECH STACK */
+
+.tech-stack{
+font-size:14px;
+line-height:1.8;
+}
+
+
+
+.project-tag{
+font-size:12px;
+background:#eef2ff;
+color:#4338ca;
+padding:4px 8px;
+border-radius:6px;
+display:inline-block;
+margin-bottom:8px;
+}
+
+body.dark .project-tag{
+background:#1e293b;
+color:#93c5fd;
+}
