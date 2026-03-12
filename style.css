@@ -956,3 +956,26 @@ font-size:14px;
 .snapshot-item a:hover{
 text-decoration:underline;
 }
+
+.project-ref{
+
+font-size:12px;
+margin-top:6px;
+opacity:0.8;
+
+}
+
+.project-ref a{
+
+color:#2563eb;
+text-decoration:none;
+
+}
+
+.project-ref a:hover{
+
+text-decoration:underline;
+
+}
+
+
